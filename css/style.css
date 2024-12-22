@@ -458,6 +458,22 @@ div#sea {
     width: 295px;
     height: 185px;
   }
+  video {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+video:-webkit-full-screen {
+    width: 100%;
+    height: auto;
+}
+
+video:-moz-full-screen {
+    width: 100%;
+    height: auto;
+}
+
 
   .moon {
     right: 230px;
