@@ -28,16 +28,23 @@ div#beach {
   background-repeat: no-repeat;
 }
 
+/* Style for the video container */
 div#video {
   position: absolute;
-  right: 243px;
-  bottom: 200px;
+  right: 215px; /* Adjusted to fit the white screen */
+  bottom: 190px; /* Adjusted to fit the white screen */
+  width: 300px; /* Matches the updated white screen width */
+  height: 200px; /* Matches the updated white screen height */
+  overflow: hidden; /* Ensures video doesn't go outside */
 }
 
-div#video iframe {
-  width: 255px;
-  height: 155px;
+/* Style for the video element */
+div#video video {
+  width: 100%; /* Fills the container */
+  height: 100%; /* Ensures video aspect ratio matches */
+  object-fit: cover; /* Fits perfectly within the container */
 }
+
 
 #people {
   position: absolute;

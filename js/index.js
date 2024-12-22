@@ -293,11 +293,20 @@ function reveal() {
     w = 255;h = 155;
   }
 
-  var ifrm = document.createElement("iframe");
-  ifrm.setAttribute("src", "https://www.youtube.com/embed/gbICivOO26U?controls=0&loop=1&autoplay=1");
-  //ifrm.style.width = `${w}px`;
-  //ifrm.style.height = `${h}px`;
-  ifrm.style.border = 'none';
-  document.querySelector('#video').appendChild(ifrm);
+  // Create a video element
+var videoElement = document.createElement("video");
+
+// Set video properties
+videoElement.setAttribute("src", "file:///C:/Users/ASKME/Documents/bday1/BdaySong.mp4");
+videoElement.setAttribute("autoplay", "true");
+videoElement.setAttribute("loop", "true");
+videoElement.setAttribute("controls", "true"); // Optional: Remove if you don't want controls
+
+// Style the video element using CSS
+videoElement.style.objectFit = "cover";
+
+// Append the video element to the #video container
+document.querySelector('#video').appendChild(videoElement);
+
 }
 
