@@ -1,0 +1,13 @@
+{
+  "name": "bday1",
+  "version": "1.0.0",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .",
+    "build": "echo 'No build step required for this project'"
+  },
+  "homepage": "https://keerthanaskkun.github.io/bday1",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
