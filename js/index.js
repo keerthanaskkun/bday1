@@ -297,7 +297,7 @@ function reveal() {
 var videoElement = document.createElement("video");
 
 // Set video properties
-videoElement.setAttribute("src", "file:///C:/Users/ASKME/Documents/bday1/BdaySong.mp4");
+videoElement.setAttribute("src", "https://www.dropbox.com/scl/fi/4rz5rgfgs9qpnbfbet5nk/BdaySong.mp4?rlkey=i4efv2efnfa6h62hjd376s0ve&st=a7n5gwwf&raw=1");
 videoElement.setAttribute("autoplay", "true");
 videoElement.setAttribute("loop", "true");
 videoElement.setAttribute("controls", "true"); // Optional: Remove if you don't want controls
